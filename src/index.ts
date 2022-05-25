@@ -11,6 +11,7 @@ linkedList.add(-30);
 linkedList.add(2340);
 linkedList.add(2);
 
-const sorter = new Sorter(linkedList);
-sorter.sort();
-console.log(linkedList.print());
+linkedList.sort();
+linkedList.sort();
+
+linkedList.print();
